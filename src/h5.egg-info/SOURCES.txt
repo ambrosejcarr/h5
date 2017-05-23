@@ -1,0 +1,7 @@
+src/h5/__init__.py
+src/h5/archive.py
+src/h5.egg-info/PKG-INFO
+src/h5.egg-info/SOURCES.txt
+src/h5.egg-info/dependency_links.txt
+src/h5.egg-info/requires.txt
+src/h5.egg-info/top_level.txt
