@@ -1,3 +1,0 @@
-numpy
-pandas>=0.18.1
-tables
