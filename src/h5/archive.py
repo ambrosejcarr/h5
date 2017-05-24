@@ -122,3 +122,10 @@ class Archive:
     @property
     def is_open(self) -> bool:
         return self._archive.is_open
+
+    def keys(self):
+        try:
+            self._archive.open()
+            return self._archive.keys()
+        finally:
+            self._archive.close()
